@@ -80,11 +80,16 @@
               }
             ],
             "styles": [
+              "src/tailwind.css",
               "src/styles.css"
+              
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "74596ba6-fdc9-4872-8aff-34310d732957"
   }
 }
