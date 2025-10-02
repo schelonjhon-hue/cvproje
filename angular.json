@@ -75,6 +75,7 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
+                
                 "glob": "**/*",
                 "input": "public"
               }
@@ -82,7 +83,6 @@
             "styles": [
               "src/tailwind.css",
               "src/styles.css"
-              
             ]
           }
         }
