@@ -1,0 +1,60 @@
+/* Sayfa genel stil ayarları */
+:host {
+  display: block;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+/* Başlık stili */
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Tablo stili */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* Başlık hücreleri */
+th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* Veri hücreleri */
+td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+/* Zebra şerit etkisi */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover efekti */
+tr:hover {
+  background-color: #ecf0f1;
+}
+
+/* Son satırın alt kenarını vurgulama */
+tr:last-child td {
+  border-bottom: 2px solid #3498db;
+}
